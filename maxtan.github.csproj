@@ -61,7 +61,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\UserContent\blog.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="main.js" />
+    <Content Include="meta.js" />
+    <Content Include="post\2012-01-23.txt" />
+    <Content Include="post\2012-02-23.txt" />
+    <Content Include="post\2012-03-23.txt" />
+    <Content Include="post\index.txt" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
