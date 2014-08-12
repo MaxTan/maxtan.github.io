@@ -30,6 +30,11 @@
       "title": "other hello world",
       "file": "2012-03-23",
       "cate": "other"
+    },
+    {
+      "title": "测试博文",
+      "file": "2014-08-12",
+      "cate": "tech"
     }
   ]
 }
