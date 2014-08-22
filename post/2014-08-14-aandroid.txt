@@ -1,12 +1,3 @@
----
-layout: post
-title: Mono for Android 下的 ListActivity
-description: 介绍 Mono for Android 平台下 ListActivity 的使用， 以及如何进行自定义 ListActivity 的 Adapter
-tags: [Mono, Android]
----
-
-介绍 Mono for Android 平台下 ListActivity 的使用， 以及如何进行自定义 ListActivity 的 Adapter。
-
 ### 使用 ListActivity 最简单的方式
 
 ListActivity 是 android 开发中很常用的布局组件， 通常用于显示可以滚动的列表项。 以 `ArrayAdapter<T>` 为例， 最简单的使用方法如下： 

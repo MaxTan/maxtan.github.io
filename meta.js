@@ -15,67 +15,61 @@
 	}],
 	"articles": [
 	{
-	    "title": "cfbundleversion",
+	    "title": "文章1",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-cfbundleversion",
 	    "cate": "tech"
 	},
 	{
-	    "title": "programmers",
-	    "date": "2014-08-14",
-	    "file": "2014-08-14-programmers",
-	    "cate": "tech"
-	},
-	{
-	    "title": "scss",
+	    "title": "文章2",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-scss",
 	    "cate": "tech"
 	},
 	{
-	    "title": "aandroid",
+	    "title": "文章3",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-aandroid",
 	    "cate": "tech"
 	},
 	{
-	    "title": "android",
+	    "title": "文章4",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-android",
 	    "cate": "tech"
 	},
 	{
-	    "title": "app",
+	    "title": "文章5",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-app",
 	    "cate": "tech"
 	},
 	{
-	    "title": "mono",
+	    "title": "文章6",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-mono",
 	    "cate": "tech"
 	},
 	{
-	    "title": "osx",
+	    "title": "文章7",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-osx",
 	    "cate": "tech"
 	},
 	{
-	    "title": "regedit",
+	    "title": "文章8",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-regedit",
 	    "cate": "tech"
 	},
 	{
-	    "title": "steps",
+	    "title": "文章9",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-steps",
 	    "cate": "tech"
 	},
 	{
-	    "title": "time",
+	    "title": "文章10",
 	    "date": "2014-08-14",
 	    "file": "2014-08-14-time",
 	    "cate": "tech"
