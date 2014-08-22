@@ -18,9 +18,6 @@ $(function () {
         result.navlist = _.map(data.cates, function (cate) {
             return { link: '#!cate/' + cate.name, text: cate.text };
         });
-        result.blogs = _.map(data.blogs, function (blog) {
-            return { link: blog.file, text: blog.title, desc: blog.desc };
-        });
         return result;
     };
 
@@ -33,7 +30,7 @@ $(function () {
         }
 
         result.months = _.groupBy(articles, function (article) {
-            return article.file.substring(0, 7);
+            return article.date.substring(0, 7);
         });
         result.months = _.map(result.months, function (value, key) {
             return {
