@@ -1,76 +1,89 @@
-﻿<!doctype html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <title>Max'Blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/UserContent/blog.css" rel="stylesheet" />
-</head>
-<body>
-    <script id="tpl-main" type="text/template">
-        <div class="blog-masthead">
-            <div class="container">
-                <nav class="blog-nav">
-                    <a class="blog-nav-item active" href="#">首页</a>
-                    {{#navlist}}
-                    <a class="blog-nav-item" href="{{link}}">{{text}}</a>
-                    {{/navlist}}
-                </nav>
-            </div>
-        </div>
-        <div class="container">
-            <div class="blog-header">
-                <h1 class="blog-title">The Bootstrap Blog</h1>
-                <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-8 blog-main">
-                    <div class="article-content" /> <!--博文内容-->
-                </div>
-                <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-                    <div class="sidebar-module sidebar-module-inset">
-                        <h4>About</h4>
-                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    </div>
-                    <div class="sidebar-nav" /> <!--博客文章列表-->
-                    <div class="sidebar-module">
-                        <h4>Elsewhere</h4>
-                        <ol class="list-unstyled">
-                            <li><a href="https://github.com/MaxTan">GitHub</a></li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="blog-footer">
-            <p>{{copyright}}</p>
-        </div>
-    </script>
-    <script id="tpl-sidebar" type="text/template">
-        <div class="sidebar-module">
-            {{#months}}
-            <h4>{{month}}</h4>
-            <ol class="list-unstyled">
-                {{#articles}}
-                <li><a href="#!show/{{link}}">{{text}}</a></li>
-                {{/articles}}
-            </ol>
-            {{/months}}
-        </div>
+---
+layout: default
+---
+<div id="index" class="row">
+  <div class="col-sm-9">
+    <div class="post-area">
+      <div class="post-list-body">
+        
+        <div class="all-posts" post-cate="All">
+          {% for post in paginator.posts %}
+            <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
+              <h2>
+              {{ post.title }}
+              </h2>
+              <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </a>
 
-    </script>
-    <div class="main-body">
+
+
+          {% endfor %}
+          <!-- 分页 -->
+      <div class="paginator">
+              {% if paginator.total_pages > 1 %}
+              <!-- 分页代码 -->
+              {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <span class="active">{{ page }}</span>
+            {% elsif page == 1 %}
+              <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+            {% else %}
+              <a href="/{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
+        {% endif %}
+              {% endif %}
+      </div>      
+
+
+        </div>
+        <!-- <div class="posts-in-categories"> -->
+        {% for category in site.categories %}
+          <div post-cate="{{category | first}}">
+            {% for posts in category  %}
+              {% for post in posts %}
+                {% if post.url %}
+                  <a href="{{ post.url }}" class="post-list-item">
+                    <h2>
+                    {{ post.title }}
+                    </h2>
+                    <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  </a>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+        
+        <!-- </div> -->
+      </div>
+      
+
+     
     </div>
-    <script src="Scripts/jquery-1.9.0.min.js"></script>
-    <script src="Scripts/json2.js"></script>
-    <script src="Scripts/underscore-min.js"></script>
-    <script src="Scripts/backbone-min.js"></script>
-    <script src="Scripts/mustache.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/showdown-min.js"></script>
-    <script src="main.js"></script>
-</body>
-</html>
+  </div>
+  <div class="col-sm-3">
+    <div class="shadow-corner-curl hidden-xs">
+      <div class="categories-list-header">
+        Categories
+      </div>
+      
+      <a href="{{'/index.html' | prepend: site.baseurl}}" class="categories-list-item" cate="All">
+        All<span class="my-badge"> {{site.posts | size}}</span>
+      </a>
+      {% for category in site.categories order:ascending %}
+        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
+          {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
