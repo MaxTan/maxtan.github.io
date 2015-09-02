@@ -26,7 +26,7 @@ published: true
 
 ###写入到sd卡
 
-下载后解压得到一个3.05G的*.img镜像，按照官方给的快速指南，在windows上使用Win32DiskImager把镜像写入到sd卡，mac上面有直接命令行操作的，后台再补充再mac上写入系统镜像的方法。
+下载后解压得到一个3.05G的*.img镜像，按照官方给的快速指南，在windows上使用Win32DiskImager把镜像写入到sd卡，mac上面有直接的命令行可使用，回头再补充再mac上写入系统镜像的方法。
 
 ![write-raspbian]({{ "/css/pics/raspbian-write.png"}})
 
@@ -34,7 +34,7 @@ published: true
 
 ![write-raspbian]({{ "/css/pics/raspbian-write-seed.png"}})
 
-卡是在X宝随树莓派一起买的闪迪 16GClass10 写入速度平均在14M/s，这速度还可以。
+卡是在X宝随树莓派一起买的闪迪 16GClass10 写入速度平均在14M/s，速度还可以。(查过防伪码了，是真品，是真品	)
 
 ![wirte-raspbian]({{ "/css/pics/raspbian-write-successful.png"}})
 
@@ -42,4 +42,4 @@ published: true
 
 ###End
 
-写入卡后系统就算装完了，看了下快速指南，把卡插到pi上面就能跑起来，不过现在还在上班，不能直接把树莓派点亮，晚上回去再接着玩并把过程记录下来。
+写入卡后系统就算装完了，看了下快速指南，把卡插到pi上面就能直接跑起来，不过现在还在上班，不能直接把树莓派点亮，晚上回去再接着玩并把过程记录下来。
