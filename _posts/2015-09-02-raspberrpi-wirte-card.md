@@ -14,6 +14,7 @@ published: true
 
 一早就想玩玩树莓派了，这次终于狠下心咬咬牙把省了大半年的饭钱买了一块树莓派2B和一堆零配件。 闲话少扯，下面开始记录下装系统的过程。
 
+---
 
 ##安装过程
 
@@ -23,6 +24,8 @@ published: true
 但进到去发现并没有什么卵用，只有12年的几个老版本镜像。
 好吧直接去[官网](https://www.raspberrypi.org/downloads/)下载，速度还行。 
 官方是推荐使用NOOBS和Raspbian两个，当然还有其他的一些系统，像ubuntu、pinet之类，还有今年刚发布的windows10物联网版。
+
+---
 
 ###写入到sd卡
 
@@ -39,6 +42,8 @@ published: true
 ![wirte-raspbian]({{ "/css/pics/raspbian-write-successful.png"}})
 
 好的，短短几分钟就把3.05G的大家伙写进去了。
+
+---
 
 ###End
 
