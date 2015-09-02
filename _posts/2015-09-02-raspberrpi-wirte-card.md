@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "给树莓派安装Raspbian"
-date:   2015-02-15 22:14:54
+date:   2015-09-2 15:36:54
 categories: 树莓派 Raspberrpi
 excerpt: XyzMax 树莓派安装系统
-published: false
+published: true
 ---
 
 * content
@@ -42,4 +42,4 @@ published: false
 
 ###End
 
-写入卡后系统就算装完了，看了下制指南，把卡插到pi上面就能跑起来，不过现在还在上班，不能直接把树莓派点亮，晚上回去再接着玩并把过程记录下来。
+写入卡后系统就算装完了，看了下快速指南，把卡插到pi上面就能跑起来，不过现在还在上班，不能直接把树莓派点亮，晚上回去再接着玩并把过程记录下来。
