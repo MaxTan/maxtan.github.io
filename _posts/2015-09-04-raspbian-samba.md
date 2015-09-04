@@ -84,12 +84,13 @@ samba的功能非常强大，而且可配置性也非常高，这里因为我急
 	$ sudo smbpasswd -a username
 
 提示让你输入共享密码，这下子可以了。
+
 >注意，如果smbpasswd命令提示无效的话，那就没安装samba-commmon-bin
 
 
  ---
 
-###使用samba服务
+###使用samba
 
 在osx下面使用samba非常简单
 
