@@ -43,14 +43,14 @@ vim还没怎么用过，先用nano吧，这个比较易用点
 
 在interfaces里面输入
 
-	allow-hotplug wlan0			#不知道这是啥？
-	iface wlan0 inet static		#把无线网卡的IP方式设置为静态
-	wpa-ssid ********			#无线热点名称
-	wpa-psk	********			#无线热点密码
-	address 192.168.1.166		#手动分配一个静态地址
-	netmask 255.255.255.0		#设置子网掩码
-	gateway 192.168.1.10		#网关
-	network 192.168.1.10		#服务器地址
+	allow-hotplug wlan0	#不知道这是啥？
+	iface wlan0 inet static	#把无线网卡的IP方式设置为静态
+	wpa-ssid ********	#无线热点名称
+	wpa-psk	********	#无线热点密码
+	address 192.168.1.166	#手动分配一个静态地址
+	netmask 255.255.255.0	#设置子网掩码
+	gateway 192.168.1.10	#网关
+	network 192.168.1.10	#服务器地址
 
 这里要设置为静态IP的原因是因为使用DHCP来分配的话，即使内网IP也会经常变动，所以设定好一个固定的IP方便以后ssh或者远程桌面连接
 

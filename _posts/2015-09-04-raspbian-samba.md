@@ -48,6 +48,8 @@ linux上面安装软件真的过瘾，就像包管理一样，敲入安装命令
 	$ sudo apt-get install samba
 	$ sudo apt-get install samba-commmon-bin #这个也记得要安装
 
+---
+
 
 
 ###配置Samba

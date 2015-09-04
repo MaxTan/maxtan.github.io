@@ -2,7 +2,7 @@
 layout: post
 title:  "给树莓派安装Raspbian"
 date:   2015-09-2 15:36:54
-categories: 树莓派 Raspberrpi
+categories: 树莓派
 excerpt: XyzMax 树莓派安装系统
 published: true
 ---
