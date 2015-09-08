@@ -49,7 +49,7 @@ Nancy是一个[开源项目](https://github.com/NancyFx/Nancy)，我本身对这
 
 由于这篇博文主要记录在Linux上面部署的过程的记录，所以程序方面会另开新章做专门的记录，写好的Web应用就是一个*.exe的可执行控制台程序，这里是已经把测试程序写好并且拷贝到Linux上面。
 
-首先是在Linux上面[安装mono运行库](/2015/09/05/raspbian-mono/)，然后运行程序。
+首先是在Linux上面[安装mono运行库](/2015/09/04/raspbian-mono/)，然后运行程序。
 
 	$ mono NancyTestWebSite.exe
 
