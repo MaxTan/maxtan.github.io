@@ -2,7 +2,7 @@
 layout: post
 title:  "在树莓派上安装mono及运行.NET程序"
 date:   2015-09-05 23:43:54
-categories: mono .net linux
+categories: mono dotnet linux
 excerpt: XyzMax 
 published: true
 ---

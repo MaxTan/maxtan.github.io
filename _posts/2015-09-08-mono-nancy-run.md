@@ -2,7 +2,7 @@
 layout: post
 title:  "在Linux上面部署.NET网站"
 date:   2015-09-8 00:07:54
-categories: 开源项目 Nancy mono Linux .NET
+categories: 开源项目 Nancy mono Linux dotnet
 excerpt: XyzMax 在Linux后台运行Nancy自承载服务
 published: true
 ---
