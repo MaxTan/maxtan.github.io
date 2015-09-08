@@ -18,7 +18,7 @@ markdown: kramdown
 
 paginate: 10
 paginate_path: "page:num"
-
+timezone: Asia/Shang_Hai
 # highlight
 # 本地用rouge, github上用pygments
 # highlighter: pygments
