@@ -21,7 +21,7 @@ published: true
 	set expandtab
 
 	set nu		#设置行号
-	set autoindet	#设置自动缩进
+	set autoindent	#设置自动缩进
 	syntax on 	#设置语法高亮
 
 ![config]({{ "/css/pics/vim-sample-config.png"}})
