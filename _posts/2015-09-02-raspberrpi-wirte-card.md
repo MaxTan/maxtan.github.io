@@ -20,7 +20,7 @@ published: true
 
 ###下载系统镜像
 
-首先要下载系统镜像，第一时间去找找国内有没有维护景象点，毕竟国内有的话，速度快也省时间，刚好搜到有个在广州的站点，中大LUG，Nice！  [http://mirrors.ustc.edu.cn/raspbian/](http://mirrors.ustc.edu.cn/raspbian/)
+首先要下载系统镜像，第一时间去找找国内有没有维护景象点，毕竟国内有的话，速度快也省时间，中国科技大学[http://mirrors.ustc.edu.cn/raspbian/](http://mirrors.ustc.edu.cn/raspbian/)
 但进到去发现并没有什么卵用，只有12年的几个老版本镜像。
 好吧直接去[官网](https://www.raspberrypi.org/downloads/)下载，速度还行。 
 官方是推荐使用NOOBS和Raspbian两个，当然还有其他的一些系统，像ubuntu、pinet之类，还有今年刚发布的windows10物联网版。

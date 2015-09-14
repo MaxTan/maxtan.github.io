@@ -82,7 +82,7 @@ Nice！ 赞！
 
 ###更换源
 
-刚好用今中午找到的中山大学的镜像源。
+刚好用今中午找到的中国科技大学的镜像源。
 按照使用说明来，还是得用nano编辑 etc/apt/sources.list 文件
 
 	#deb http://mirrordirector.raspbian.org/raspbian/ wheezy main contrib non-free rpi
