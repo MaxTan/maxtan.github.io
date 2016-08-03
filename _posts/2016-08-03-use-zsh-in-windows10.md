@@ -45,6 +45,9 @@ published: true
 
 ![ruby-v]({{ "/css/pics/launch-zsh.png"}})
 
+    if [ -t 1 ]; then
+    exec zsh
+    fi
 
 ---
 
