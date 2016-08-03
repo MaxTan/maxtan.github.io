@@ -11,7 +11,7 @@ published: true
 {:toc}
 
 
-##简单配置
+## 简单配置
 
 用vim编辑 ~/.vimrc , 我这里没有，直接创建一个
 

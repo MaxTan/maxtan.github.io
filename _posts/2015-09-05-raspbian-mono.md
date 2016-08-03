@@ -10,7 +10,7 @@ published: true
 * content
 {:toc}
 
-##废话
+## 废话
 其实买这个树莓派的初衷也是出于想把以往写的.net程序放在linux上面跑，毕竟C#才是我的最爱。
 
 ---
@@ -20,13 +20,13 @@ published: true
 
 ---
 
-##mono
+## mono
 mono是指由Novell公司(由Xamarin发起，并由Miguel de lcaza领导的，一个致力于开创·NET在Linux上使用的开源工程
 
 
 ---
 
-###安装mono
+### 安装mono
 
 按照这里的方法直接在apt上面用命令行安装[https://www.maketecheasier.com/write-c-sharp-programs-raspberry-pi](https://www.maketecheasier.com/write-c-sharp-programs-raspberry-pi)
 
@@ -74,4 +74,4 @@ C#才是当之无愧的一次编译，到处运行。
 
 ---
 
-##完
+## 完

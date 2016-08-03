@@ -11,7 +11,7 @@ published: ture
 {:toc}
 
 
-###文件操作
+### 文件操作
 
 	切换目录
 	$ cd
@@ -37,7 +37,7 @@ published: ture
 	查看文件内容
 	$ cat
 
-###开放端口给外网访问
+### 开放端口给外网访问
 
 	$ /sbin/iptables -I INPUT -p tcp --dport 8000 -j ACCEPT #开启8000端口 
  
