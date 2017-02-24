@@ -4,7 +4,7 @@ title:  "Vim的简单配置"
 date:   2015-09-9 17:30:54
 categories: linux vim
 excerpt: XyzMax vim配置
-published: true
+published: false
 ---
 
 * content
