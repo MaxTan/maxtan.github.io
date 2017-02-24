@@ -23,7 +23,7 @@ published: true
 
 ## 代码实现
 
-### Python
+Python
 
 ``` python
     class ListNode:
@@ -32,7 +32,7 @@ published: true
             self.next = None
 ```
 
-### C#
+C#
 
 ``` csharp
 
@@ -62,7 +62,7 @@ published: true
 * 要把反转后的最后一个节点指向null。
 
 
-##### Python
+Python
 
 ```python
     class ListNode:
@@ -83,7 +83,7 @@ published: true
 ```
 
 
-##### C#
+C#
 
 ```csharp
     public class ListNode {
@@ -127,7 +127,7 @@ published: true
 #### 双向链表
 双向链表和单向链表的区别在于：双向链表的反转核心在于`next`和`prev`域的交换,还需要注意的是当前节点和上一节点的递推。
 
-##### python
+python
 
 ``` python
     class DListNode:
@@ -149,7 +149,7 @@ published: true
 ```
 
 
-##### C#
+C#
 
 ```csharp
     public class DListNode {
