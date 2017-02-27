@@ -11,7 +11,7 @@ published: true
 
 持续比较相邻的元素，大的上升，小的下沉，冒泡
 
-![Bubble Sort](../css/pics/bubble_sort.gif)
+![Bubble Sort]({{ "/css/pics/bubble_sort.gif"}})
 
 ---
 
@@ -55,4 +55,4 @@ C#
 
 ## 算法复杂度
 
-平均情况与最坏情况均为 $$O(n^2)$$, 使用了 temp 作为临时交换变量，空间复杂度为 *O(1)*.
+平均情况与最坏情况均为 *O(n^2)*, 使用了 temp 作为临时交换变量，空间复杂度为 *O(1)*.
