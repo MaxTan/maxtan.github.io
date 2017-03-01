@@ -19,7 +19,7 @@ published: true
 
 python
 
-```python
+``` python
     def bubbleSort(alist):
         print(alist)
         for i in range(len(alist)):
@@ -32,7 +32,7 @@ python
 
 C#
 
-```c#
+``` cs
 
     public int[] BubbleSort(int[] array) {
 
