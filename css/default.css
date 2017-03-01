@@ -38,7 +38,7 @@ blockquote {
   border-left: 0.25em lightgrey solid;
 }
 
-pre {
+/*pre {
   font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
   border: solid 1px #ddd;
   border-radius: 3px;
@@ -67,7 +67,7 @@ pre code {
   padding: 0;
   background-color: transparent;
   word-wrap: normal;
-}
+}*/
 
 a {
   text-decoration: none;
