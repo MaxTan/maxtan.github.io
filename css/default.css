@@ -47,21 +47,13 @@ blockquote {
   font-size: 1em;
   line-height: 100%;
   overflow: auto;
-}
+}*/
 
 code {
-  font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
-  font-size: 0.75em;
-  border: solid 1px #ddd;
-  border-radius: 3px;
-  background-color: #f8f8ff;
-  margin: 0 2px;
-  padding: 0px 5px;
-  word-wrap: break-word;
-  word-break: break-all;
+  font-size: 1.2em;
 }
 
-pre code {
+/*pre code {
   border: none;
   margin: 0;
   padding: 0;
