@@ -32,7 +32,7 @@ python
 
 C#
 
-``` cs
+``` csharp
 
     public int[] BubbleSort(int[] array) {
 
