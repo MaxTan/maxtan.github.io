@@ -211,4 +211,5 @@ tr:nth-child(2n) {
 
 pre > code {
     font-family: "Monaco";
+    font-size: x-small;
 }
